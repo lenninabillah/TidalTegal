@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tidal Tegal</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">Tidal<span>Tegal</span>.</a>
+
+        <div class="navbar-nav">
+            <a href="index.html">Beranda</a>
+            <div class="dropdown">
+                <button class="dropbtn">Peta Genangan <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="genangan banjir.html">Peta Genangan Banjir Rob</a>
+                    <a href="PL Muarareja.html">Peta Penggunaan Lahan Muarareja</a>
+                    <a href="PL Tegalsari.html">Peta Penggunaan Lahan Tegalsari</a>
+                    <a href="PL Mintaragen.html">Peta Penggunaan Lahan Mintaragen</a>
+                    <a href="PL Panggung.html">Peta Penggunaan Lahan Panggung</a>
+                </div>
+            </div>
+            <a href="informasi.html">Informasi</a>
+            <a href="kontak.html">Kontak</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div id="peta">
+        <h5><b>DASHBOARD PENGGUNAAN LAHAN TERDAMPAK BANJIR ROB KELURAHAN PANGGUNG</b></h5>
+        <p>Berdasarkan Pengolahan Data, 2024</p>
+    </div>
+    <div class="container-map">
+        <iframe class="responsive-iframe"
+            src="https://thunbergii.app.carto.com/map/df73a2ea-193a-4b5d-bf86-81ec92a11825"></iframe>
+    </div>
+
+    <!-- Icon -->
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
