@@ -163,7 +163,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/kapal.jpg');
+    background-image: url('../img/kapal.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
