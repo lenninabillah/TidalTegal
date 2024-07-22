@@ -28,11 +28,12 @@ body {
     padding: 1.4rem 7%;
     background-color: #101237;
     border-bottom: 1px solid #46718d;
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+    width: 100%;
 }
 
 .navbar .navbar-logo {
@@ -100,7 +101,7 @@ body {
     cursor: pointer;
 }
 
-.arrow-btn a i{
+.arrow-btn a i {
     color: #ffffff;
     font-size: 25px;
     line-height: 39px;
@@ -163,7 +164,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/kapall.jpg');
+    background-image: url('../img/kapal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -343,6 +344,7 @@ section h3 {
 #about-judul {
     scroll-margin-top: 100px;
 }
+
 
 .about p {
     color: #666;
@@ -532,8 +534,9 @@ section h3 {
 /* Peta */
 #peta {
     color: #101237;
-    text-align: center;
-    margin-top: 30px;
+    text-align: center;    
+    padding: 20px 0;
+    margin-top: 80px;
     margin-bottom: 30px;
 }
 
@@ -571,22 +574,30 @@ section h3 {
 }
 
 /* Informasi */
+#tab {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin-top: 80px;
+}
+
 .tablink:hover {
     background-color: #0F2D53;
     color: #ffffff;
 }
 
 .tablink {
-    background-color: #E6E6E6;
+    background-color: #ffffff;
     color: #070705;
     float: left;
     border: none;
     outline: none;
     cursor: pointer;
     padding: 14px 20px;
-    font-size: 15px;
+    font-size: 2vh;
     width: 50%;
-    transition: 0.3s
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tablink hover {
@@ -600,12 +611,14 @@ section h3 {
     display: none;
     padding: 30px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+    background-color: #ffffff;
 }
 
 #Penanganan {
@@ -618,7 +631,7 @@ section h3 {
 
 .tabcontent {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 5px;
     padding: 20px;
 }
 
@@ -738,6 +751,7 @@ ul li::before {
     justify-content: center;
     gap: 30px;
     padding: 20px;
+    background-color: #ffffff;
 }
 
 .sebab h1 {
@@ -760,10 +774,11 @@ ul li::before {
 .sebab {
     max-width: 100vw;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
     margin: 10px auto;
     padding: 40px 0;
+    background-color: var(--bg);
 
     .kartu {
         position: relative;
@@ -772,7 +787,7 @@ ul li::before {
         margin: 0 auto;
         background: #ffffff;
         border-radius: 15px;
-        box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 15px 60px rgba(0, 0, 0, 0.196);
 
         .face {
             position: absolute;
@@ -794,7 +809,7 @@ ul li::before {
                     font-size: 1.5vw;
                 }
 
-                p{
+                p {
                     font-size: 1vw;
                 }
 
@@ -815,11 +830,13 @@ ul li::before {
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
+
                 .iklim {
                     background-color: #101237;
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
                 }
+
                 .pesisir {
                     background-color: #101237;
                     -webkit-background-clip: text;
@@ -895,6 +912,11 @@ ul li::before {
 
 
 /* Kontak */
+#contact {
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
 .container2 {
     width: 85%;
     background: #a3e3f1;
@@ -902,7 +924,7 @@ ul li::before {
     padding: 20px 60px 30px 40px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     margin-top: 2em;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
@@ -987,7 +1009,6 @@ footer {
     background-color: var(--primary);
     text-align: center;
     padding: 1rem 0 3rem;
-    margin-top: 2rem;
 }
 
 footer .socials {
@@ -1043,6 +1064,7 @@ footer .credit a {
     #hamburger-menu {
         display: inline-block;
     }
+
 
     .navbar .navbar-nav {
         position: absolute;
@@ -1102,6 +1124,10 @@ footer .credit a {
         display: block;
     }
 
+    .tablink {
+        padding: 10px 0;
+        font-size: 2vh;
+    }
 
     /* Phone */
     @media (max-width: 450px) {
@@ -1109,5 +1135,6 @@ footer .credit a {
             font-size: 55%;
 
         }
+
     }
 }
