@@ -355,7 +355,7 @@ section h3 {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 0.2;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 #sumber-peta {
@@ -528,7 +528,7 @@ section h3 {
     line-height: 25px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 /* Peta */
@@ -937,7 +937,7 @@ ul li::before {
 
 .container2 .content .right-side {
     width: 90%;
-    margin-left: 75px;
+    margin-left: 20px;
 }
 
 .content .right-side .topic-text {
