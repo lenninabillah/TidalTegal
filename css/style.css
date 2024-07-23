@@ -169,6 +169,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 .hero::after {
@@ -528,7 +529,7 @@ section h3 {
     line-height: 25px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1rem;
 }
 
 /* Peta */
@@ -594,7 +595,7 @@ section h3 {
     outline: none;
     cursor: pointer;
     padding: 14px 20px;
-    font-size: 2vh;
+    font-size: 17px;
     width: 50%;
     transition: 0.3s;
     font-family: 'Poppins', sans-serif;
@@ -1122,6 +1123,10 @@ footer .credit a {
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .hero {
+        background-size: contain;
     }
 
     .tablink {
