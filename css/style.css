@@ -379,6 +379,7 @@ section h3 {
     width: 100%;
     padding-top: 41.5%;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .responsive-iframe {
@@ -556,7 +557,6 @@ section h3 {
     color: #666;
     word-spacing: 2px;
     line-height: 25px;
-    margin-bottom: 20px;
     text-align: center;
     font-size: 12px;
 }
@@ -1132,7 +1132,7 @@ footer .credit a {
     .tablink {
         font-size: 0.5vh;
     }
-}
+
 
 
     /* Phone */
