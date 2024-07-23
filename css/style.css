@@ -1126,7 +1126,7 @@ footer .credit a {
     }
 
     .hero {
-        background-size: contain;
+        background-size: cover;
     }
 
     .tablink {
