@@ -327,13 +327,16 @@ body {
     padding: 20px 0;
 }
 
+html {
+    font-size: 16px; /* 1rem = 14px */
+}
+
 section h3 {
     text-align: center;
-    /* padding: 20px 0; */
     color: #0f2d53;
     margin-bottom: 20px;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 1.875rem; 
 }
 
 .about,
@@ -349,14 +352,13 @@ section h3 {
 
 .about p {
     color: #666;
-    word-spacing: 2px;
-    line-height: 25px;
-    margin: 0 auto 20px auto;
+    word-spacing: 0.125rem; /* 2px */
+    line-height: 1.5625rem; /* 25px */
+    margin: 0 auto 1.25rem auto; /* 20px */
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 0.2;
-    font-size: 2vh;
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    font-size: 1rem; /* 16px */
 }
 
 #sumber-peta {
@@ -520,16 +522,18 @@ section h3 {
     color: #0f2d53;
     margin-bottom: 20px;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 1.875rem; 
 }
 
 .model p {
     color: #666;
-    word-spacing: 2px;
-    line-height: 25px;
-    margin-bottom: 20px;
+    word-spacing: 0.125rem; /* 2px */
+    line-height: 1.5625rem; /* 25px */
+    margin: 0 auto 1.25rem auto; /* 20px */
     text-align: center;
-    font-size: 2vh;
+    padding-left: 1.25rem; /* 20px */
+    padding-right: 1.25rem; /* 20px */
+    font-size: 1rem; /* 16px */
 }
 
 /* Peta */
@@ -595,7 +599,7 @@ section h3 {
     outline: none;
     cursor: pointer;
     padding: 14px 20px;
-    font-size: 2vh;
+    font-size: 1rem;
     width: 50%;
     transition: 0.3s;
     font-family: 'Poppins', sans-serif;
@@ -685,8 +689,8 @@ section h3 {
 }
 
 .chip img {
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
 }
 
@@ -1126,9 +1130,10 @@ footer .credit a {
     }
 
     .tablink {
-        padding: 10px 0;
-        font-size: 2vh;
+        font-size: 0.5vh;
     }
+}
+
 
     /* Phone */
     @media (max-width: 450px) {
