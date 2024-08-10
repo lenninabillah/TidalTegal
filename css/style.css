@@ -733,10 +733,10 @@ margin-top: 10px;
 
 .penanganan h3 {
     color: #262626;
-    font-size: 1vw;
+    font-size: 1.2rem;
     line-height: 24px;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .card1 {
@@ -1203,11 +1203,6 @@ footer .credit a {
     .tablink {
         font-size: 1.5vh;
     }
-
-    .penanganan h3 {
-        font-size: 1.5vh;
-    }
-
 
 
 
