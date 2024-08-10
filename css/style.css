@@ -352,12 +352,12 @@ section h3 {
 
 .about p {
     color: #666;
-    word-spacing: 0.125rem; /* 2px */
-    line-height: 1.5625rem; /* 25px */
-    margin: 0 auto 1.25rem auto; /* 20px */
+    word-spacing: 0.125rem; 
+    line-height: 1.5625rem; 
+    margin: 0 auto 1.5rem auto; 
     text-align: center;
-    padding-left: 1.25rem; /* 20px */
-    padding-right: 1.25rem; /* 20px */
+    padding-left: 3rem;
+    padding-right: 3rem; /* 20px */
     font-size: 1rem; /* 16px */
 }
 
@@ -507,20 +507,26 @@ section h3 {
    flex-wrap: wrap;
    margin-top: 10px;
    margin-bottom: 20px;
+   padding: 0 10px;
 }
 
-.card {
-    width: 325px;
-    height: 50vh;
+.card-berita {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
     background-color: #dcdcdc;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
-    margin-bottom: 1opx;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
 
-.card img {
+.card-berita img {
     width: 100%;
     height: auto;
 }
@@ -530,7 +536,7 @@ section h3 {
 }
 
 .card-content h3 {
-    font-size: 1.5vw;
+    font-size: 1.25rem;
     margin-bottom: 10px;
     color: #0F2D53;
     text-align: center;
@@ -1197,6 +1203,11 @@ footer .credit a {
     .tablink {
         font-size: 1.5vh;
     }
+
+    .penanganan h3 {
+        font-size: 1.5vh;
+    }
+
 
 
 
